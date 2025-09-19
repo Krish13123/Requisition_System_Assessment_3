@@ -1,5 +1,7 @@
 """
-I used the Separation of Concerns principle because this function only handles approval status checking the total and deciding status according to total oprice of items. this task will help staff to auto generate status and reference number.
+I used the Separation of Concerns principle because this function only handles approval status checking 
+the total and deciding status according to total oprice of items. this task will help staff to auto
+generate status and reference number.
 """
 
 from act2 import requisitions_total   # import requisitions_total to run and use info and total.
@@ -18,3 +20,4 @@ def requisition_approval():   # create a function to approve or pending requests
     print(f"status: {status}")   # print approval status.
 
     return status, r_num, total_price, d_date, staff_id, staff_name, requisition_id   # Return details.
+
