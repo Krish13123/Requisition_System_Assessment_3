@@ -1,3 +1,8 @@
+"""
+I used the Avoid Premature Optimisation principle because I focused on making the code correct
+and easy to understand first, instead of making it complex for speed or performance.
+"""
+
 from act1 import staff_info   # import staff_info to run and use staf information.
 
 def requisitions_total():   # create a function to calculate item costs.
@@ -41,3 +46,4 @@ def requisitions_total():   # create a function to calculate item costs.
     print(f"Total cost of the items: {total_price}")   # printing final total.
 
     return total_price, d_date, staff_id, staff_name, requisition_id   # Return all  details so i am able to use and run in another function.
+
